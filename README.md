@@ -4,7 +4,7 @@ Pré-requisitos
 
 - Ter o Terraform instalado;
 - Ter o AWS CLI instalado;
-AWS
+ AWS
 
 - region: Região onde os serviços serão provisionados (Obrigatório);
 - provider: Provedor onde os serviços serão provisionados. (Obrigatório);
@@ -13,14 +13,14 @@ AWS
 - instance_type: Define o tipo da instância (Obrigatório);
 - availability_zone: Define a Zona da Disponibilidade onde a instância será criada (Opcional);
 - user_data: Script de instalação do HTTP para que o index seja carregado na página (Obrigatório);
-Procedimento de execução
+ Procedimento de execução
 
 - logar na aws-cli aws configure
 - Entrar com sua access key (precisa ter permissão para criar os recursos)
-Clonar o repositório
+ Clonar o repositório
 
 - git clone https://github.com/valcann-onboarding/helloworld-terraform
-Executar os comandos do terraform
+ Executar os comandos do terraform
 
 - terraform init (Inicializa e configura o terraform no diretório do projeto)
 - terraform plan (Cria um plano de execução e permite visualizar as alterações que o terraform irá fazer em sua infraestrutura)
